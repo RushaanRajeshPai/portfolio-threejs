@@ -29,11 +29,11 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-400 fixed top-5 mx-auto ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='flex justify-between  max-w-7xl'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -43,9 +43,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+          <p className='text-white text-[18px] font-bold '>
+            Rushaan Pai &nbsp;
+            <span className='sm:block hidden'> | Computer Engineering student at DJSCE</span>
           </p>
         </Link>
 
