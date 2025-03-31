@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+// import { StarsCanvas } from "./canvas";
 
 const ProjectCard = ({
   index,
@@ -71,6 +72,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
+      {/* <StarsCanvas /> */}
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
